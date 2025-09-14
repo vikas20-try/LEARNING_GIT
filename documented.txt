@@ -1,3 +1,15 @@
+# main the thing to know 
+    commit every time we add 
+    means after like 
+     #git add file_name 
+     #git commit -m 'i have added the file' (if not the file will not be saved when we push it to the remote)
+    and it is also same when we do
+     #git add .(even though it adds all changes in one go but without commit it is not even considered )
+     #git commit -m 'just letting me know how imporent is git commit is after any changes'
+
+
+
+
 # mkdir folder_name
   (this command creates a new directory with the specified name)
 
@@ -22,5 +34,5 @@
 
 # git remote add origin https://github.com/vikas20-try/LEARNING_GIT.git
   (this command creates a bookmark called 'origin' that points to the URL of the repository on GitHub)
-# git push -u origin
- ( it will push from local to remote)
+# git push -u origin master
+ ( it will push from local to remote here in the branch is imp while pushing here is it master in pervious version it was called 'main')
