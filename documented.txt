@@ -1,0 +1,26 @@
+# mkdir folder_name
+  (this command creates a new directory with the specified name)
+
+# cd folder_name
+  (this command changes the current working directory to the specified folder)
+
+# git init
+  (this command initializes a new Git repository and creates a hidden .git folder to track changes)
+
+# git add file_name
+# git add .
+  (this command adds a specific file or all changes in the current directory to the staging area for the next commit)
+
+# git commit -m 'i have added README.md file'
+  (this command commits staged changes with a descriptive message; using -m allows inline message input, otherwise it opens a text editor)
+
+# git status
+  (this command displays the current branch, untracked files, and modified files not yet committed)
+
+# git diff
+  (this command shows the differences between the working directory and the last commit)
+
+# git remote add origin https://github.com/vikas20-try/LEARNING_GIT.git
+  (this command creates a bookmark called 'origin' that points to the URL of the repository on GitHub)
+# git push -u origin
+ ( it will push from local to remote)
